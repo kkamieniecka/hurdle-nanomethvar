@@ -14,7 +14,6 @@ workflow hurdle_nanomethvar_methylation {
     EVENTALIGN(bam, ref, fastq)
 
     emit:
-    CALL_METHYLATION.out
-    METH_FREQ.out
-    EVENTALIGN.out
+    tuple(CALL_METHYLATION.out, METH_FREQ.out, EVENTALIGN.out)
+
 }

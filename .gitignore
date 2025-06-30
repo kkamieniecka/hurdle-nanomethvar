@@ -1,0 +1,36 @@
+# Nextflow runtime and intermediate files
+work/
+.results/
+results/
+pipeline.log
+.nextflow*
+.conda/
+
+# Test data
+f5c_na12878_test.tgz
+chr22_meth_example/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode dev container files
+.devcontainer/
+
+# Example outputs
+example_output/
+slides/
+

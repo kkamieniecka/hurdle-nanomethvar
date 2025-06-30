@@ -1,0 +1,12 @@
+tasks:
+  - name: Setup environment
+    init: |
+      # Install Java 17 using SDKMAN
+      sdk install java 17.0.7-tem
+      sdk default java 17.0.7-tem
+      java -version
+
+      # Install Nextflow
+      curl -s https://get.nextflow.io | bash
+      sudo mv nextflow /usr/local/bin/
+      nextflow -version

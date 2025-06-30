@@ -2,7 +2,6 @@
 
 [![Nextflow](https://img.shields.io/badge/built%20with-nextflow-brightgreen)](https://www.nextflow.io/) 
 [![Docker](https://img.shields.io/badge/container-docker-blue)](https://www.docker.com/) 
-[![GitPod](https://debug-kkamienieck-hurdlenanom-6ctrg50hget.ws-eu120.gitpod.io/)
 [![MIT License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
 
